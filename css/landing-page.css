@@ -1,0 +1,209 @@
+/*!
+ * Start Bootstrap - Landing Page (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: #3f30d3;
+}
+
+
+nav{
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #191919;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 20%;
+}
+
+
+.btn {
+  background-color: #2e4ed1;
+  outline-color: #2e4ed1;
+  font-family: "Montserrat";
+  font-weight: 700 ;
+  }
+
+.btn-outline {
+  color: inherit;
+  }
+
+
+.intro-message>h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin: 0;
+  font-size: 4em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+.resume-container {
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size: 12pt;
+  font-weight: 400;
+
+}
+
+.resume-container h3 {
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.date {
+  color:#848484;
+}
+
+.resume-header {
+  color: #474747;
+}
+
+footer{
+  text-align: center;
+}
+
+.copyright text-muted small{
+  text-align: center;
+}
+
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
