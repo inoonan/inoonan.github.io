@@ -14,6 +14,13 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+h4{
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+
 a {
   color: #3f30d3;
 }
@@ -72,13 +79,37 @@ nav{
   margin-left: 5px;
 }
 
+.about-img {
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.about-container {
+  margin-right: 10%;
+  margin-left: 5%;
+  font-size: 12pt;
+  font-weight: 400;
+  float: right;
+  clear: both;
+}
+
+.about-container a{
+  font-weight: 600;
+}
+
+.about-container h4{
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 
 .resume-container {
   margin-right: 20%;
   margin-left: 20%;
   font-size: 12pt;
   font-weight: 400;
-
 }
 
 .resume-container h3 {
@@ -104,11 +135,14 @@ nav{
 
 footer{
   text-align: center;
+  clear: both;
 }
 
 .copyright text-muted small{
   text-align: center;
 }
+
+
 
 
 @media(max-width:767px) {
@@ -182,6 +216,7 @@ footer{
     float: left;
     margin-top: 15px;
   }
+
 }
 
 @media(max-width:767px) {
@@ -196,6 +231,20 @@ footer{
   }
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
+  }
+  .about-img{
+    width: 80%;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .about-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    clear: both;
   }
 }
 
